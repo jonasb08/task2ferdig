@@ -1,0 +1,63 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: blue;
+}
+
+.pimg1,
+.pimg2 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url(./Bilder/bilde4.jpg);
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url(Bilder/bilde6.jpg);
+  min-height: 100%;
+}
+
+.pimg3 {
+  background-image: url(Bilder/bilde5.jpg);
+  min-height: 100%;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  color: blueviolet;
+}
+
+.border {
+  color: whitesmoke;
+  background-color: black;
+}
+
+.section {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
